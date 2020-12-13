@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">More Aqui</string>
+    <string name="btnNovo">Novo</string>
+    <string name="btnMapa">Mapa</string>
+    <string name="btnVisualizar">Visualizar</string>
+    <string name="btnGravar">Gravar</string>
+    <string name="edtTelefone">Telefone</string>
+    <string name="txtTipo">Tipo:</string>
+    <string name="rbCasa">Casa</string>
+    <string name="rbApartamento">Apartamento</string>
+    <string name="rbLoga">Loja</string>
+    <string name="rbNaoSeiTipo">Não Sei</string>
+    <string name="txtTamanho">Tamanho:</string>
+    <string name="rbPequeno">Pequeno</string>
+    <string name="rbMedio">Médio</string>
+    <string name="rbGrande">Grande</string>
+    <string name="rbNaoSeiTamanho">Não Sei</string>
+    <string name="cbStatus">Em construção</string>
+    <string name="btnInserir">Pronto!</string>
+    <string name="readyToLive">Pronto</string>
+    <string name="underConstruction">Em Construção</string>
+    <string name="msgInsertedSuccessful">Informação inserida com sucesso</string>
+    <string name="unableLocation">Impossível encontrar localização.</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+    <string name="msgEnableGPS">Ativar GPS</string>
+</resources>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InsertActivity">
+
+    <EditText
+        android:id="@+id/edtTelefone"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40sp"
+        android:layout_marginBottom="20sp"
+        android:layout_marginTop="20sp"
+        android:hint="@string/edtTelefone"
+        android:inputType="phone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/rgTipo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40sp"
+            android:layout_marginBottom="20sp">
+
+            <TextView
+                android:id="@+id/txtTipo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txtTipo" />
+
+            <RadioButton
+                android:id="@+id/rbCasa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rbCasa" />
+
+            <RadioButton
+                android:id="@+id/rbApartamento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rbApartamento" />
+
+            <RadioButton
+                android:id="@+id/rbLoja"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rbLoga" />
+
+            <RadioButton
+                android:id="@+id/rbNaoSeiTipo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rbNaoSeiTipo" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/rgTamanho"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40sp"
+            android:layout_marginBottom="20sp">
+
+            <TextView
+                android:id="@+id/txtTamanho"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txtTamanho" />
+
+            <RadioButton
+                android:id="@+id/rbPequeno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rbPequeno" />
+
+            <RadioButton
+                android:id="@+id/rbMedio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rbMedio" />
+
+            <RadioButton
+                android:id="@+id/rbGrande"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rbGrande" />
+
+            <RadioButton
+                android:id="@+id/rbNaoSeiTamanho"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rbNaoSeiTamanho" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/cbStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cbStatus"
+        android:layout_marginHorizontal="40sp"
+        android:layout_marginBottom="20sp"/>
+
+    <Button
+        android:id="@+id/btnInserir"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/btnInserir" />
+
+</LinearLayout>

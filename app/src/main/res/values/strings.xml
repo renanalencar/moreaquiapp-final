@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Live Here</string>
+    <string name="btnNovo">New</string>
+    <string name="btnMapa">Map</string>
+    <string name="btnVisualizar">View</string>
+    <string name="btnGravar">Save</string>
+    <string name="edtTelefone">Phone</string>
+    <string name="txtTipo">Type:</string>
+    <string name="rbCasa">House</string>
+    <string name="rbApartamento">Apartament</string>
+    <string name="rbLoga">Shop</string>
+    <string name="rbNaoSeiTipo">I don\'t know</string>
+    <string name="txtTamanho">Size:</string>
+    <string name="rbPequeno">Small</string>
+    <string name="rbMedio">Medium</string>
+    <string name="rbGrande">Big</string>
+    <string name="rbNaoSeiTamanho">I don\'t know</string>
+    <string name="cbStatus">Under Construction</string>
+    <string name="btnInserir">Done!</string>
+    <string name="readyToLive">Ready</string>
+    <string name="underConstruction">Under Construction</string>
+    <string name="msgInsertedSuccessful">Data inserted successfully</string>
+    <string name="unableLocation">Unable to find location.</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="msgEnableGPS">Enable GPS</string>
+</resources>
